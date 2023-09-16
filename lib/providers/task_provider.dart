@@ -9,7 +9,7 @@ class TaskProvider extends ChangeNotifier {
   late TaskRepository _taskRepository;
   List<Task> _tasks = [];
 
-  TaskList() {
+  TaskProvider() {
     _taskRepository = TaskRepository();
     _init();
   }
